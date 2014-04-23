@@ -19,6 +19,11 @@
 		186E83B41907693800BB68EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186E839C1907693800BB68EB /* UIKit.framework */; };
 		186E83BC1907693800BB68EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E83BA1907693800BB68EB /* InfoPlist.strings */; };
 		186E83BE1907693800BB68EB /* CVTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E83BD1907693800BB68EB /* CVTransitionDemoTests.m */; };
+		186E83C9190769F500BB68EB /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E83C8190769F500BB68EB /* ModalViewController.m */; };
+		186E83CC19076C3F00BB68EB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E83CB19076C3F00BB68EB /* MainViewController.m */; };
+		186E83D219076EE200BB68EB /* BouncePresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E83D119076EE200BB68EB /* BouncePresentAnimation.m */; };
+		186E83D519078D5800BB68EB /* SwipeUpInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E83D419078D5800BB68EB /* SwipeUpInteractiveTransition.m */; };
+		186E83D81907959400BB68EB /* NormalDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E83D71907959400BB68EB /* NormalDismissAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,16 @@
 		186E83B91907693800BB68EB /* CVTransitionDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CVTransitionDemoTests-Info.plist"; sourceTree = "<group>"; };
 		186E83BB1907693800BB68EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		186E83BD1907693800BB68EB /* CVTransitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVTransitionDemoTests.m; sourceTree = "<group>"; };
+		186E83C7190769F500BB68EB /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		186E83C8190769F500BB68EB /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		186E83CA19076C3F00BB68EB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		186E83CB19076C3F00BB68EB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		186E83D019076EE200BB68EB /* BouncePresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncePresentAnimation.h; sourceTree = "<group>"; };
+		186E83D119076EE200BB68EB /* BouncePresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BouncePresentAnimation.m; sourceTree = "<group>"; };
+		186E83D319078D5800BB68EB /* SwipeUpInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeUpInteractiveTransition.h; sourceTree = "<group>"; };
+		186E83D419078D5800BB68EB /* SwipeUpInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeUpInteractiveTransition.m; sourceTree = "<group>"; };
+		186E83D61907959400BB68EB /* NormalDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalDismissAnimation.h; sourceTree = "<group>"; };
+		186E83D71907959400BB68EB /* NormalDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalDismissAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +124,16 @@
 			children = (
 				186E83A71907693800BB68EB /* AppDelegate.h */,
 				186E83A81907693800BB68EB /* AppDelegate.m */,
+				186E83C7190769F500BB68EB /* ModalViewController.h */,
+				186E83C8190769F500BB68EB /* ModalViewController.m */,
+				186E83CA19076C3F00BB68EB /* MainViewController.h */,
+				186E83CB19076C3F00BB68EB /* MainViewController.m */,
+				186E83D019076EE200BB68EB /* BouncePresentAnimation.h */,
+				186E83D119076EE200BB68EB /* BouncePresentAnimation.m */,
+				186E83D61907959400BB68EB /* NormalDismissAnimation.h */,
+				186E83D71907959400BB68EB /* NormalDismissAnimation.m */,
+				186E83D319078D5800BB68EB /* SwipeUpInteractiveTransition.h */,
+				186E83D419078D5800BB68EB /* SwipeUpInteractiveTransition.m */,
 				186E83AA1907693800BB68EB /* Images.xcassets */,
 				186E839F1907693800BB68EB /* Supporting Files */,
 			);
@@ -239,8 +264,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186E83D219076EE200BB68EB /* BouncePresentAnimation.m in Sources */,
 				186E83A91907693800BB68EB /* AppDelegate.m in Sources */,
+				186E83D81907959400BB68EB /* NormalDismissAnimation.m in Sources */,
 				186E83A51907693800BB68EB /* main.m in Sources */,
+				186E83C9190769F500BB68EB /* ModalViewController.m in Sources */,
+				186E83CC19076C3F00BB68EB /* MainViewController.m in Sources */,
+				186E83D519078D5800BB68EB /* SwipeUpInteractiveTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
