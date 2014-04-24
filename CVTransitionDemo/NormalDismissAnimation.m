@@ -30,7 +30,6 @@
     
     
     
-    
     // 3. Add target view to the container, and move it to back.
     UIView *containerView = [transitionContext containerView];
     [containerView addSubview:toVC.view];
@@ -46,9 +45,6 @@
     } completion:^(BOOL finished) {
         
         [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
-        
-        
-        NSLog(@"%d",![transitionContext transitionWasCancelled]);
         
     }];
 }

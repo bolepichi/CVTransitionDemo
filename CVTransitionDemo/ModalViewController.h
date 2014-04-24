@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class ModalViewController;
+
 @protocol ModalViewControllereDelegate <NSObject>
 
 -(void) modalViewControllerDidClickedDismissButton:(ModalViewController*)viewController;

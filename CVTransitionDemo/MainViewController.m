@@ -63,7 +63,9 @@
 
 - (void) buttonClicked:(id)sender{
     ModalViewController *mvc = [[ModalViewController alloc]init];
+    
     mvc.delegate = self;
+    
     mvc.transitioningDelegate =self;
     
     [self.transitionController wireToViewController:mvc];
