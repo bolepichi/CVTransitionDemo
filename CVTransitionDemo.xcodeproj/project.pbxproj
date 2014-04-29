@@ -467,6 +467,7 @@
 				186E83C31907693800BB68EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		186E83C41907693800BB68EB /* Build configuration list for PBXNativeTarget "CVTransitionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +476,7 @@
 				186E83C61907693800BB68EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
